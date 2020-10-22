@@ -1,0 +1,7 @@
+displayName: Rewrite Host
+type: middleware
+import: github.com/Uscreen-video/traefik-plugin-rewritehost
+summary: Extract host from the HTTP request and put it to a new header.
+testData:
+  create:   "X-Origin-Domain"
+
